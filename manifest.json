@@ -2,11 +2,11 @@
   "name": "Sangh Shakti Sangam",
   "short_name": "SSS",
   "description": "Sangh shakti Sangam Swayamsevak registration",
-  "start_url": "./index.php?utm=homescreen",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#ffc107",
-  "theme_color": "#ffc107",
+  "background_color": "#ff9600",
+  "theme_color": "#ff9600",
   "icons": [{
       "src": "./assets/images/sss.jpg",
       "type": "image/jpeg",
@@ -23,6 +23,6 @@
     "github": "https://github.com/yashsam",
     "source-repo": "https://github.com/yashsam/sss"
   },
-  "gcm_sender_id": "847244712742",
+  "gcm_sender_id": "",
   "gcm_user_visible_only": true
 }
