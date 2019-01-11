@@ -2,7 +2,7 @@
   "name": "Sangh Shakti Sangam",
   "short_name": "SSS",
   "description": "Sangh shakti Sangam Swayamsevak registration",
-  "start_url": "./index.html?utm=homescreen",
+  "start_url": "./index.php?utm=homescreen",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffc107",
