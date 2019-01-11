@@ -7,7 +7,7 @@
     <title>Sign In | Bootstrap Based Admin Template - Material Design</title>
     <!-- Favicon-->
     <link rel="icon" href="<?php echo base_url('assets/material/favicon.ico');?>" type="image/x-icon">
-
+    <link rel="manifest" href="<?php echo base_url('manifest.json');?>">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
