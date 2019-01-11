@@ -1,0 +1,28 @@
+{
+  "name": "Sangh Shakti Sangam",
+  "short_name": "SSS",
+  "description": "Sangh shakti Sangam Swayamsevak registration",
+  "start_url": "./index.html?utm=homescreen",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffc107",
+  "theme_color": "#ffc107",
+  "icons": [{
+      "src": "./assets/images/sss.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/images/sss.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+  }],
+  "author": {
+    "name": "Yashwant Kudalkar",
+    "website": "https://sss.yashwantkudalkar.com",
+    "github": "https://github.com/yashsam",
+    "source-repo": "https://github.com/yashsam/sss"
+  },
+  "gcm_sender_id": "847244712742",
+  "gcm_user_visible_only": true
+}
