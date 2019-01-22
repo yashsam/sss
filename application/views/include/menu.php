@@ -1,6 +1,4 @@
 <?php
-var_dump($userData);
-
 			  if(file_exists('assets/images/'.$userData->profile_pic) && isset($userData->profile_pic)){
 			  $profile_pic = $userData->profile_pic;
 			  }else{
