@@ -17,7 +17,7 @@
               $profile_pic = $user_data[0]->profile_pic;
               }else{
               $profile_pic = 'user.png';}?>
-              <img  src="<?php echo base_url();?>/assets/images/<?php echo isset($profile_pic)?$profile_pic:'user.png';?>" alt="User profile picture">
+              <img  src="<?php echo base_url();?>/assets/images/<?php echo isset($profile_pic)?$profile_pic:'user.png';?>" alt="User profile picture" style="width:200px;height:200px">
                    
                             </div>
                             <div class="content-area">
@@ -105,7 +105,7 @@
 
                                 <div class="tab-content">
                                     <div role="tabpanel" class="tab-pane fade in active" id="profile_settings">
-                                        <form class="form-horizontal" action="<?php echo base_url().'user/add_edit' ?>" method="POST">
+                                        <form class="form-horizontal" action="<?php echo base_url().'user/add_edit' ?>" method="POST" enctype="multipart/form-data">
                                             <div class="form-group">
                                                 <label for="NameSurname" class="col-sm-2 control-label">Name </label>
                                                 <div class="col-sm-10">
@@ -119,6 +119,15 @@
                                                 <div class="col-sm-10">
                                                     <div class="form-line">
                                                         <input type="email" class="form-control" id="email" name="email" value="<?php echo (isset($user_data[0]->email)?$user_data[0]->email:'');?>" placeholder="Email"  required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group"> 
+                                                <label for="profile" class="col-sm-2 control-label">Change Picture</label>
+                                                <div class="col-sm-10">
+                                                    <div class="form-line">
+                                                    <input id="fileUpload" class="upload" name="profile_pic" type="file" accept="image/*" /><br />
+                                                    <input type="hidden" name="fileOld" value="<?php echo isset($user_data[0]->profile_pic)?$user_data[0]->profile_pic:'';?>" />
                                                     </div>
                                                 </div>
                                             </div>

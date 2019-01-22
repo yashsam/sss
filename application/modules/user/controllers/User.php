@@ -14,7 +14,9 @@ class User extends CI_Controller {
       */
     public function index() {
     	if(is_login()){
-    		redirect( base_url().'user/profile', 'refresh');
+            $this->load->view('include/header');
+            $this->load->view('dashboard');                
+            $this->load->view('include/footer');
     	} 
     }
 
