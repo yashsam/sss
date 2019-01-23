@@ -39,6 +39,7 @@
 <script src="<?php echo base_url('assets/material/plugins/jquery-validation/jquery.validate.js');?>"></script>
 
 <!-- Custom Js -->
+<script src="<?php echo base_url('assets/material/js/main.js');?>"></script>
 <script src="<?php echo base_url('assets/material/js/admin.js');?>"></script>
 <script src="<?php echo base_url('assets/material/js/pages/examples/sign-in.js');?>"></script>
 <script src="<?php echo base_url('assets/material/js/pages/examples/sign-up.js');?>"></script>
