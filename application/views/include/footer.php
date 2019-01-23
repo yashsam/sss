@@ -1,4 +1,12 @@
 
+    <style>
+    .add-button {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+    </style>
+    <button class="add-button">Add to home screen</button>
     <!-- Jquery Core Js -->
     <script src="<?php echo base_url('assets/material/plugins/jquery/jquery.min.js');?>"></script>
 
