@@ -204,7 +204,7 @@ self.addEventListener('notificationclick', (event) => {
 });
 
 let deferredPrompt;
-const addBtn = document.querySelector('.add-button');
+const addBtn = window.document.querySelector('.add-button');
 addBtn.style.display = 'none';
 
 window.addEventListener('beforeinstallprompt', (e) => {
