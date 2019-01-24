@@ -110,6 +110,13 @@
 				<div class="version">
 					<b>Version: </b> 1.0.0
 				</div>
+				<div class="fab fab__push">
+        <div class="fab__ripple"></div>
+        <img class="fab__image" src="<?php echo base_url('/assets/material/images/push-off.png');?>" alt="Push Notification" />
+      </div>
+
+      <!-- Toast msg -->
+      <div class="toast__msg"></div>
 			</div>
 			<!-- #Footer -->
 		</aside>
