@@ -33,8 +33,8 @@
       }
     });
   }
-let deferredPrompt;
-const addBtn = window.document.querySelector('.add-button');
+  let deferredPrompt;
+const addBtn = document.querySelector('.add-button');
 addBtn.style.display = 'none';
 
 window.addEventListener('beforeinstallprompt', (e) => {
@@ -61,6 +61,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
       });
   });
 });
+
 
 
 

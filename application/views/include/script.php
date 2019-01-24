@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>Sign In | Bootstrap Based Admin Template - Material Design</title>
     <!-- Favicon-->
-    <link rel="icon" href="<?php echo base_url('assets/material/favicon.ico');?>" type="image/x-icon">
+    <link rel="icon" href="<?php echo base_url('assets/images/favicon.ico');?>" type="image/x-icon">
     <link rel="manifest" href="<?php echo base_url('manifest.json');?>">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
@@ -46,6 +46,11 @@
 
 <!-- Custom Js -->
 <script src="<?php echo base_url('assets/material/js/main.js');?>"></script>
+<script src="<?php echo base_url('assets/material/js/push.js');?>"></script>
+<script src="<?php echo base_url('assets/material/js/share.js');?>"></script>
+<script src="<?php echo base_url('assets/material/js/sync.js');?>"></script>
+<script src="<?php echo base_url('assets/material/js/toast.js');?>"></script>
+<script src="<?php echo base_url('assets/material/js/offline.js');?>"></script>
 <script src="<?php echo base_url('assets/material/js/admin.js');?>"></script>
 <script src="<?php echo base_url('assets/material/js/pages/examples/sign-in.js');?>"></script>
 <script src="<?php echo base_url('assets/material/js/pages/examples/sign-up.js');?>"></script>

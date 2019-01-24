@@ -23,7 +23,12 @@
     <script src="<?php echo base_url('assets/material/plugins/node-waves/waves.js');?>"></script>
 
     <!-- Custom Js -->
-	<script src="<?php echo base_url('assets/material/js/main.js');?>"></script>
+    <script src="<?php echo base_url('assets/material/js/main.js');?>"></script>
+    <script src="<?php echo base_url('assets/material/js/push.js');?>"></script>
+<script src="<?php echo base_url('assets/material/js/share.js');?>"></script>
+<script src="<?php echo base_url('assets/material/js/sync.js');?>"></script>
+<script src="<?php echo base_url('assets/material/js/toast.js');?>"></script>
+<script src="<?php echo base_url('assets/material/js/offline.js');?>"></script>
     <script src="<?php echo base_url('assets/material/js/admin.js');?>"></script>
     <script src="<?php echo base_url('assets/material/js/pages/examples/profile.js');?>"></script>
 
