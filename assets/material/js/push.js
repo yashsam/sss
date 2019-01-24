@@ -100,11 +100,11 @@
     fabPushElement.checked = status;
     if (status) {
       fabPushElement.classList.add('active');
-      fabPushImgElement.src = '../images/push-on.png';
+      fabPushImgElement.src = '/assets/material/images/push-on.png';
     }
     else {
      fabPushElement.classList.remove('active');
-     fabPushImgElement.src = '../images/push-off.png';
+     fabPushImgElement.src = '/assets/material/images/push-off.png';
     }
   }
 
