@@ -1,14 +1,14 @@
 //Cache polyfil to support cacheAPI in all browsers
-importScripts('./cache-polyfill.js');
+//importScripts('./cache-polyfill.js');
 
-var cacheName = 'cache-v5';
+//var cacheName = 'cache-v5';
 
 //Files to save in cache
-var files = [
-  './index.php?utm=homescreen', //SW treats query string as new request
-  './assets/material/js/main.js',
-  './manifest.json'
-];
+//var files = [
+ // './index.php?utm=homescreen', //SW treats query string as new request
+  //'./assets/material/js/main.js',
+  //'./manifest.json'
+//];
 
 //Adding `install` event listener
 self.addEventListener('install', (event) => {
