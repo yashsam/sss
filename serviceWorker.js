@@ -5,7 +5,6 @@ var cacheName = 'cache-v5';
 
 //Files to save in cache
 var files = [
-  './',
   './index.php?utm=homescreen', //SW treats query string as new request
   './assets/material/js/main.js',
   './manifest.json'
