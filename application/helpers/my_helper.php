@@ -194,7 +194,8 @@
 	}
 	
   function is_login(){ 
-      if(isset($_SESSION['user_details'])){
+	  $CI = get_instance();
+      if(isset($CI->session->get_userdata()['user_details'][0])){
           return true;
       }else{
          redirect( base_url().'user/login', 'refresh');
